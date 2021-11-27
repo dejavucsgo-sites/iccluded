@@ -114,6 +114,24 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
   width:50%;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #151c32;
+  box-shadow: 0 0 2px rgba(0, 0, 0, .2) inset;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1a41c1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2f5bea;
+}
+
 /*! Place your custom styles here (below). 
       This will make it much easier to update the template later - you'll only need to preserve "this file
   ===================================================================================================*/
