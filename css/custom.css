@@ -1,0 +1,119 @@
+body {
+  font-family: "Aileron", sans-serif, "Aileron", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Aileron", sans-serif;
+}
+
+.blockquote {
+  font-family: "Noto Serif", serif;
+}
+
+/**! ----- colors ---- **/
+.bg-color-primary, .btn--bg-primary, .navbar-sticky--on .btn, .btn--bg-grey:hover, .btn--outline:hover, .btn--outline-thick:hover, .btn-border-hover.btn--color-white:before, .card--focused, .card--outline:hover, .card--outline:focus, .social-lists li a:hover, .media-player-icon--fill-primary, .oval, .slick-active .slick-dots--long, .pagination .page-item.active .page-link {
+  background: #2f5bea;
+}
+
+.color-primary, .hero-content .btn:hover .media-player-icon--fill-grey, .btn--bg-white:hover, .btn--color-primary, .btn--color-primary:hover, .btn--color-dark.btn-text-hover:hover, .btn--outline.btn--color-primary, .btn--outline-thick.btn--color-primary, .btn-text-hover:hover, .card--focused .btn__text, .lang-selector .lang-dropdown__item:focus, .lang-selector .lang-dropdown__item:hover, .icon-rounded .icon, .media-player-icon--fill-grey:hover, .btn:hover .media-player-icon--fill-grey i, .pagination .page-item .page-link:hover, .dropdown-item:focus, .dropdown-item:hover, .dropdown-item.active, .dropdown-item:active, .features--slider-2 .slick-arrow:hover i, .footer-widget ul li a:hover, .footer .nav li a:hover {
+  /*! color: #fff; */
+}
+
+.features .swipe-tab.active-tab .swipe-tab__inner {
+  -webkit-box-shadow: 0px 2px 0px #2f5bea;
+          box-shadow: 0px 2px 0px #2f5bea;
+}
+
+.border-primary, .hr--blod, .btn--color-primary, .btn--color-dark.btn-text-hover:hover, .btn--outline:hover, .btn--outline-thick:hover, .btn-text-hover:hover {
+  border-color: #2f5bea;
+}
+.bg-fill-primary {
+  fill: #2f5bea;
+}
+.slider-func {position: relative; margin-bottom: 100px; } .j-center {-webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; } .a-center {-ms-align-items: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; } .flex {display: -moz-flex; display: -ms-flex; display: -o-flex; display: -webkit-box; display: -ms-flexbox; display: flex; } .cocoen {width: 1000px; border: 25px solid rgb(1, 8, 31); position: relative; } .cocoen {box-sizing: border-box; cursor: pointer; line-height: 0; margin: 0; overflow: hidden; padding: 0; position: relative; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; } .slider-func {position: relative; margin-bottom: 100px; } .j-center {-webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; } .a-center {-ms-align-items: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; } .flex {display: -moz-flex; display: -ms-flex; display: -o-flex; display: -webkit-box; display: -ms-flexbox; display: flex; } .card-style {border-radius: 15px; background-color: #181a25; } .cocoen > div:first-child, picture .cocoen > div {height: 100%; left: 0; overflow: hidden; position: absolute; top: 0; width: 50%; } .cocoen > img, .cocoen > picture > img {display: block; width: 100%; } .cocoen img, .cocoen picture > img {max-width: none; } .cocoen * {box-sizing: inherit; } .cocean__info:nth-of-type(1) {position: absolute; top: 0; left: calc(25% - 100px); z-index: 1; height: 35px; width: 200px; text-align: center; line-height: 35px; font-size: 20px; color: #fff; } .cocean__info:nth-of-type(2) {position: absolute; top: 0; left: calc(75% - 100px); z-index: 1; height: 35px; width: 200px; text-align: center; line-height: 35px; font-size: 20px; color: #fff; } .cocoen ::after, .cocoen ::before {box-sizing: inherit; } .cocoen-drag::before {border: 5px solid #fff; border-radius: 20px; background: -moz-linear-gradient(to top, #4b68d2 0%, #7290f7 100%); background: -webkit-linear-gradient(to top, #4b68d2 0%,#7290f7 100%); background: linear-gradient(to top, #4b68d2 0%,#7290f7 100%); width: 25px; height: 25px; margin-left: -12px; margin-top: -12px; } .cocoen-drag::before {border: 3px solid #fff; content: ''; height: 30px; left: 50%; margin-left: -7px; margin-top: -18px; position: absolute; top: 50%; width: 14px; } .cocoen-drag {width: 5px; background: -moz-linear-gradient(to top, #4b68d2 0%, #7290f7 100%); background: -webkit-linear-gradient(to top, #4b68d2 0%,#7290f7 100%); background: linear-gradient(to top, #4b68d2 0%,#7290f7 100%); } .cocoen-drag::before {border: 5px solid #fff; border-radius: 20px; background: -moz-linear-gradient(to top, #4b68d2 0%, #7290f7 100%); background: -webkit-linear-gradient(to top, #4b68d2 0%,#7290f7 100%); background: linear-gradient(to top, #4b68d2 0%,#7290f7 100%); width: 25px; height: 25px; margin-left: -12px; margin-top: -12px; } 
+
+.embed-responsive-item {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.group        { 
+  position:relative; 
+  margin-bottom:3em; 
+}
+input         {
+  font-size:18px;
+  padding:0.625em  0.625em 0.625em 0.3125em;
+  display:block;
+  width:18.75em;
+  border:none;
+  border-bottom:1px solid #757575;
+}
+input:focus {
+  outline:none;
+}
+
+/* LABEL ======================================= */
+label {
+  font-family:'Arial';
+  color:#999; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:0.3125em;
+  top:0.625em;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label    {
+  top:-20px;
+  left: -2px;
+  font-size:14px;
+  color:#5264AE;
+}
+
+/* BOTTOM BARS ================================= */
+.bar  {
+  position:relative;
+  display:block;
+}
+
+.bar:before, .bar:after   {
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#5264AE; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+
+/*! Place your custom styles here (below). 
+      This will make it much easier to update the template later - you'll only need to preserve "this file
+  ===================================================================================================*/
